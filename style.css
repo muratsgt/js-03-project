@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    background-color: darkslateblue;
+    text-align: center;
+}
+
+
+h1{
+    font-size: 2em;
+    margin: 15px;
+}
+
+
+body{
+}
+
+#gameArea{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: content-box;
+    justify-content: center;
+    align-content: center;
+}
+
+#guess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter{
+    border-bottom: 2px solid greenyellow;
+    width: 20px;
+    height: 30px;
+    margin: 3px;
+}
+
+#hangman{
+    width: 200px;
+    height: 400px;
+}
