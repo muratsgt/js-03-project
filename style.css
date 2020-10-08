@@ -5,30 +5,48 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 22px;
     background-color: darkslateblue;
-    text-align: center;
 }
 
+#container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
 
 h1{
-    font-size: 2em;
+    font-size: 2rem;
     margin: 15px;
 }
 
-
-body{
+#heading{
 }
 
+
 #gameArea{
+    margin: 20px;
     display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-    box-sizing: content-box;
-    justify-content: center;
-    align-content: center;
+    flex-direction: row;
+}
+
+#hangman{
+    width: 200px;
+    height: 300px;
+}
+
+#wrongs{
+    padding: 30px;
+    min-width: 150px;
+    min-height: 100px;
+    text-align: right;
 }
 
 #guess{
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,11 +55,8 @@ body{
 .letter{
     border-bottom: 2px solid greenyellow;
     width: 20px;
-    height: 30px;
-    margin: 3px;
-}
-
-#hangman{
-    width: 200px;
-    height: 400px;
+    height: 40px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 30px;
 }
