@@ -9,6 +9,13 @@
 </head>
 
 <body>
+    <!-- <div id="colorPicker">
+        <h3>Pick a Color</h3>
+        <button class="colorButton" id="red"></button>
+        <button class="colorButton" id="blue"></button>
+        <button class="colorButton" id="purple"></button>
+    </div> -->
+
     <div id="container">
 
         <div id="heading">
@@ -18,22 +25,12 @@
 
         <div id="gameArea">
             <div id="hangman">
-                <svg width="200" height="300">
-                    <line x1="0" y1="290" x2="100" y2="290" stroke ="white" stroke-width="4" />
-                    <line x1="50" y1="290" x2="50" y2="48" stroke ="white" stroke-width="4" />
-                    <line x1="50" y1="50" x2="122" y2="50" stroke ="white" stroke-width="4" />
-                    <line x1="120" y1="50" x2="120" y2="80" stroke ="white" stroke-width="4" />
-                    <circle cx="120" cy="100" r="18" stroke="white" stroke-width="4" fill=rgba(0,0,0,0) />
-                    <line x1="120" y1="120" x2="120" y2="170" stroke ="white" stroke-width="4" />
-                    <line x1="120" y1="140" x2="90" y2="130" stroke ="white" stroke-width="4" />
-                    <line x1="120" y1="140" x2="150" y2="130" stroke ="white" stroke-width="4" />
-                    <line x1="120" y1="170" x2="100" y2="210" stroke ="white" stroke-width="4" />
-                    <line x1="120" y1="170" x2="140" y2="210" stroke ="white" stroke-width="4" />
+                <svg width="200" height="300" id="picture">
                 </svg>
             </div>
             <div id="wrongs">
                 <p>Wrong</p>
-                <p> <b>a, b</b> </p>
+                <p><b id="wrongLetters"></b></p>
             </div>
         </div>
 

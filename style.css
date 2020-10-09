@@ -6,6 +6,15 @@
     font-size: 22px;
     background-color: darkslateblue;
 }
+/* 
+.colorButton{
+    width: 30px;
+    height: 30px;
+}
+
+#red{
+    background-color: tomato;
+} */
 
 #container{
     box-sizing: border-box;
@@ -40,7 +49,7 @@ h1{
 
 #wrongs{
     padding: 30px;
-    min-width: 150px;
+    width: 150px;
     min-height: 100px;
     text-align: right;
 }
@@ -53,7 +62,7 @@ h1{
 }
 
 .letter{
-    border-bottom: 2px solid greenyellow;
+    border-bottom: 4px solid greenyellow;
     width: 20px;
     height: 40px;
     margin: 5px;
